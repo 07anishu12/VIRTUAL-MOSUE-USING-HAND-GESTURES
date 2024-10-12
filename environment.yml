@@ -1,0 +1,30 @@
+name: virtual_mouse
+channels:
+  - conda-forge
+dependencies:
+  - python=3.12
+  - black
+  - flake8
+  - isort
+  - pip
+  - typer
+  - loguru
+  - tqdm
+  - ipython
+  - jupyterlab
+  - matplotlib
+  - notebook
+  - numpy
+  - pandas
+  - opencv  # Added for cv2 (OpenCV)
+  - pynput  # Added for pynput
+  - python=3.x
+  # other dependencies
+  - pip
+  - pip:
+    - mediapipe
+  - pip:
+      - python-dotenv
+      - awscli
+      - mkdocs
+      - -e .  # Editable install for local packages
